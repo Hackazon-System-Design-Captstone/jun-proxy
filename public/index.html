@@ -4,41 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="/style.css">
-  <title>FEC Proxy</title>
+  <title>SDC Proxy</title>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
-  <div id="Nav">Nav</div>
-  <div id="ProductInfo">ProductInfo</div>
-  <div id="Checkout"></div>
-  <div id="relateditems"></div>
-  <div id="Reviews"></div>
-  <script src="/lib/react.development.js"></script>
-  <script src="/lib/react-dom.development.js"></script>
-  <script src="https://s3-us-west-1.amazonaws.com/avh-fec-component/bundle.js"></script>
-  <script src="https://s3-us-west-1.amazonaws.com/mattminwoolee-checkout/bundle/bundle.js"></script>
-  <script src="https://s3.amazonaws.com/fec-proxy/bundle.js"></script>
 
-  <script>
-    ReactDOM.render(
-      React.createElement(Checkout),
-      document.getElementById('Checkout')
-    );
-  </script>
-  <script>
-    ReactDOM.render(
-      React.createElement(relatedItems),
-      document.getElementById('relateditems')
-    );
-  </script>
-  <script>
-    ReactDOM.render(
-      React.createElement(Reviews),
-      document.getElementById('Reviews')
-    );
-  </script>
+  <div id="Reviews"></div>
+  
 </body>
+<script src="https://s3-us-west-1.amazonaws.com/sdc-hackazon-reviews/bundle.js.gz"></script>
 
 </html>
 <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
